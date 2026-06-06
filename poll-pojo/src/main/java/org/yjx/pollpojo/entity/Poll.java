@@ -12,9 +12,9 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Poll {
-       private int id;
+       private Integer id;
        private String title;
        private String description;
-       private int creatorId;
+       private Integer creatorId;
        private LocalDateTime createTime;
 }

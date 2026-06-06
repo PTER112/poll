@@ -11,9 +11,9 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @AllArgsConstructor
 public class VoteRecord {
-    private int id;
-    private int pollId;
-    private int optionId;
-    private int userId;
-    private LocalDateTime createTime;
+    private Integer id;
+    private Integer pollId;
+    private Integer optionId;
+    private Integer userId;
+    private LocalDateTime voteTime;
 }

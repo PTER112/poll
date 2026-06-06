@@ -10,8 +10,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class PollOption {
-    private int id;
+    private Integer id;
     private String optionText;
-    private int pollId;
-    private int voteCount;
+    private Integer pollId;
+    private Integer voteCount;
 }
