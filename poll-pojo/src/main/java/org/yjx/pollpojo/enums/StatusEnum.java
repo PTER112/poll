@@ -1,8 +1,8 @@
 package org.yjx.pollpojo.enums;
 
 public enum StatusEnum {
-    DISABLED(1,"禁用"),
-    ENABLED(0,"启用");
+    NORMAL(0, "正常"),
+    DISABLED(1, "禁用");
     private final int code;
     private final String desc;
     StatusEnum(int code, String desc) {

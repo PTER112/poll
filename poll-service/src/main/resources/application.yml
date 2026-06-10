@@ -1,5 +1,9 @@
 server:
   port: 8080
+  error:
+    include-stacktrace: always
+    include-exception: true
+
 
 spring:
   # ==================== MySQL ====================
@@ -46,5 +50,9 @@ logging:
   level:
     # 项目自己的包用 debug 级别，方便调试
     org.yjx: debug
-    # MyBatis 的 mapper 接口日志，能看到 SQL 参数
+    # MyBatis 的 mapper 接口日 志，能看到 SQL 参数
     org.yjx.pollservice.mapper: debug
+    org.springdoc: debug
+
+
+

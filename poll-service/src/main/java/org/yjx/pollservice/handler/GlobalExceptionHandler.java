@@ -12,9 +12,9 @@ public class GlobalExceptionHandler {
         return Result.error(ex.getCode(),ex.getMessage());
     }
 
-    @ExceptionHandler(Exception.class)
-    public Result<Void> handleException(Exception e) {
-        return Result.error(500, "服务器内部错误");
-    }
+   // @ExceptionHandler(Exception.class)
+    //public Result<Void> handleException(Exception e) {
+    //    return Result.error(500, "服务器内部错误");
+    //}
 
 }
